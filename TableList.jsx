@@ -1,4 +1,5 @@
 import React from "react";
+import Livre from "./Livre";
 function TableList({ livres }) {
   return (
     <table className="book-table">
@@ -27,3 +28,4 @@ function TableList({ livres }) {
 }
 
 export default TableList;
+
